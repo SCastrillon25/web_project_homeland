@@ -1,4 +1,4 @@
-.article {
+.main {
     max-width: 830px;
     margin: 92px 0 0 0;
     padding-left: calc((100% - 984px) / 2);
@@ -7,7 +7,7 @@
     align-self: start;
 }
 
-.article__title {
+.main__title {
     margin: 0;
     align-self: start;
     font-size: 54px;
@@ -15,14 +15,14 @@
     line-height: 58px;
 }
 
-.article__subtitle {
+.main__subtitle {
     margin: 32px 0 0 0;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
 }
 
-.article__autor {
+.main__autor {
     margin: 10px 0 0 0;
     font-size: 24px;
     font-weight: 400;
@@ -30,7 +30,7 @@
     align-self: end;
 }
 
-.article__text {
+.main__text {
     margin: 32px 0 0 0;
     font-size: 16px;
     font-weight: 400;
@@ -40,45 +40,45 @@
 
 
 @media screen and (max-width:1024px) {
-    .article {
+    .main {
         margin-top: 90px;
         padding: 0 24px 0 24px;
         align-self: center  ;
     }
 
-    .article__title {
+    .main__title {
         font-size: 45px;
         line-height: 49px;
         font-weight: 900;
 }
 
-    .article__subtitle {
+    .main__subtitle {
         margin: 50px 0 0 0;
     }
 
-    .article__autor {
+    .main__autor {
         margin: 0px;
     }
 }
 
 @media screen and (max-width:544px) {
-    .article {
+    .main {
         margin-top: 64px;
         padding: 0 16px 0 16px;
     }
 
-    .article__title {
+    .main__title {
         font-size: 32px;
         line-height: 35px;
     }
 
-    .article__subtitle {
+    .main__subtitle {
         font-size: 24px;
-        line-height: 30px; 
+        line-height: 30px;
     }
 
-    .article__autor {
+    .main__autor {
         font-size: 24px;
-        line-height: 30px; 
+        line-height: 30px;
     }
 }
