@@ -1,0 +1,19 @@
+.author {
+    margin: 92px 0 24px 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .author{
+        margin: 88px 0 24px 0;
+    } 
+}
+
+@media screen and (max-width:544px) {
+    .author{
+        margin: 64px 0 24px 0;
+    } 
+}
