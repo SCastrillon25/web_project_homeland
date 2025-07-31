@@ -9,4 +9,6 @@ La página web de TripleTen homeland es el quinto proyecto en el programa de Des
 - @mediaQueries
 
 # URL
-https://scastrillon25.github.io/proyecto_web_cafetería/# Tripleten web_project_homeland
+https://scastrillon25.github.io/web_project_homeland/
+
+
