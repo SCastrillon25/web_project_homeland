@@ -187,6 +187,7 @@
    .countries {
       max-width: 720px;
       margin: 88px 0 0 0;
+      padding: 0 24px 0;
    }
 
    .countries__item {
@@ -236,7 +237,8 @@
 @media screen and (max-width:544px) {
    .countries {
       max-width: 320px;
-      margin: 62px 0 0 0;
+      margin: 62px 0 0;
+
    }
 
    .countries__item {
@@ -266,9 +268,13 @@
 
    .countries__img {
       margin: 30px 0 30px 0;
+      width: 100%;
+      order: 3;
+      box-shadow: none;
    }
 
    .countries__description {
+      padding: 0 16px 0;
       order: 4;
    }
 
